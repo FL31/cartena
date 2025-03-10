@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_70cc742e7ab4ee9c9d015595c5d23f7c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_70cc742e7ab4ee9c9d015595c5d23f7c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_70cc742e7ab4ee9c9d015595c5d23f7c = L.map(
+                "map_70cc742e7ab4ee9c9d015595c5d23f7c",
+                {
+                    center: [43.07625, 0.75569],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_47b4cbb2872c9c5b3da29655afc5f380 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var marker_e9e69edf433cba1b28a75ea6327c1992 = L.marker(
+                [43.01, 0.78],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_d5cf605fdb24a919bb826268e7400174 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9e69edf433cba1b28a75ea6327c1992.setIcon(icon_d5cf605fdb24a919bb826268e7400174);
+        
+    
+        var popup_e62e5aa0f2bf5c5f1177c5ef6eadc889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af79f820c2e1de3a20221080b27663dc = $(`<div id="html_af79f820c2e1de3a20221080b27663dc" style="width: 100.0%; height: 100.0%;">Cascade de Planque</div>`)[0];
+            popup_e62e5aa0f2bf5c5f1177c5ef6eadc889.setContent(html_af79f820c2e1de3a20221080b27663dc);
+        
+
+        marker_e9e69edf433cba1b28a75ea6327c1992.bindPopup(popup_e62e5aa0f2bf5c5f1177c5ef6eadc889)
+        ;
+
+        
+    
+    
+            var marker_67ae22d69f7ca8f4263d1c0132c86f6c = L.marker(
+                [43.03, 0.76],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_2c1ba645fbcc537469015037f45b4170 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_67ae22d69f7ca8f4263d1c0132c86f6c.setIcon(icon_2c1ba645fbcc537469015037f45b4170);
+        
+    
+        var popup_fb694be6357568d9ba05dad679f6eb62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1aed1ea0a90fcc56758b8fa0adc5a9c0 = $(`<div id="html_1aed1ea0a90fcc56758b8fa0adc5a9c0" style="width: 100.0%; height: 100.0%;">Cascade Sidonie</div>`)[0];
+            popup_fb694be6357568d9ba05dad679f6eb62.setContent(html_1aed1ea0a90fcc56758b8fa0adc5a9c0);
+        
+
+        marker_67ae22d69f7ca8f4263d1c0132c86f6c.bindPopup(popup_fb694be6357568d9ba05dad679f6eb62)
+        ;
+
+        
+    
+    
+            var marker_8926937a24faf6fefdedb6950809b618 = L.marker(
+                [43.08, 0.7],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_ff234e82d5a8d1a43377b7cce8b69431 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8926937a24faf6fefdedb6950809b618.setIcon(icon_ff234e82d5a8d1a43377b7cce8b69431);
+        
+    
+        var popup_72707201fe3141ff73c32d871c62cb3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_789aa15b23f23cbfd16cdc69b70f681d = $(`<div id="html_789aa15b23f23cbfd16cdc69b70f681d" style="width: 100.0%; height: 100.0%;">Gorges de la Save</div>`)[0];
+            popup_72707201fe3141ff73c32d871c62cb3b.setContent(html_789aa15b23f23cbfd16cdc69b70f681d);
+        
+
+        marker_8926937a24faf6fefdedb6950809b618.bindPopup(popup_72707201fe3141ff73c32d871c62cb3b)
+        ;
+
+        
+    
+    
+            var marker_6d070c5bdfea18236c95aa2524ba3702 = L.marker(
+                [43.02, 0.74],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_2f986e5b85de7e62abaa0b45cfb4db05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d070c5bdfea18236c95aa2524ba3702.setIcon(icon_2f986e5b85de7e62abaa0b45cfb4db05);
+        
+    
+        var popup_6ebd72df2ddfba2844b83c49cc8cf22b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4782c7ea56effd4fdfd2459960afd1bd = $(`<div id="html_4782c7ea56effd4fdfd2459960afd1bd" style="width: 100.0%; height: 100.0%;">Forêt de Cagire</div>`)[0];
+            popup_6ebd72df2ddfba2844b83c49cc8cf22b.setContent(html_4782c7ea56effd4fdfd2459960afd1bd);
+        
+
+        marker_6d070c5bdfea18236c95aa2524ba3702.bindPopup(popup_6ebd72df2ddfba2844b83c49cc8cf22b)
+        ;
+
+        
+    
+    
+            var marker_c975aba986c747c8694f18d315f60218 = L.marker(
+                [43.06, 0.72],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_4c206eaf93045c88656e5eab4c3ac607 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c975aba986c747c8694f18d315f60218.setIcon(icon_4c206eaf93045c88656e5eab4c3ac607);
+        
+    
+        var popup_42c32b232eaef14feec0560e82158597 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acb506ac44abd789ad6679d1a0fb89aa = $(`<div id="html_acb506ac44abd789ad6679d1a0fb89aa" style="width: 100.0%; height: 100.0%;">Lac de Gery</div>`)[0];
+            popup_42c32b232eaef14feec0560e82158597.setContent(html_acb506ac44abd789ad6679d1a0fb89aa);
+        
+
+        marker_c975aba986c747c8694f18d315f60218.bindPopup(popup_42c32b232eaef14feec0560e82158597)
+        ;
+
+        
+    
+    
+            var marker_76e52198460b9634cb87cc0691fa6163 = L.marker(
+                [43.04, 0.71],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_e00529574e965dc3badcf553501dce11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76e52198460b9634cb87cc0691fa6163.setIcon(icon_e00529574e965dc3badcf553501dce11);
+        
+    
+        var popup_a0f3eeab94145f83bf19003b0a4b6130 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccb88457ded5096cb6b9d4af59bd8ca6 = $(`<div id="html_ccb88457ded5096cb6b9d4af59bd8ca6" style="width: 100.0%; height: 100.0%;">Berges sauvages de la Garonne</div>`)[0];
+            popup_a0f3eeab94145f83bf19003b0a4b6130.setContent(html_ccb88457ded5096cb6b9d4af59bd8ca6);
+        
+
+        marker_76e52198460b9634cb87cc0691fa6163.bindPopup(popup_a0f3eeab94145f83bf19003b0a4b6130)
+        ;
+
+        
+    
+    
+            var marker_b0e2032a73388a89ac9bde7ba26cbd4e = L.marker(
+                [43.08, 0.69],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_069cadeecf31fe404c3ef8ac741fbb7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0e2032a73388a89ac9bde7ba26cbd4e.setIcon(icon_069cadeecf31fe404c3ef8ac741fbb7a);
+        
+    
+        var popup_4c0a32b67b503ee1d63118aff986d38b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb63200e890351d6df53879a352bfc0d = $(`<div id="html_bb63200e890351d6df53879a352bfc0d" style="width: 100.0%; height: 100.0%;">Colline de Saint-Bertrand-de-Comminges</div>`)[0];
+            popup_4c0a32b67b503ee1d63118aff986d38b.setContent(html_bb63200e890351d6df53879a352bfc0d);
+        
+
+        marker_b0e2032a73388a89ac9bde7ba26cbd4e.bindPopup(popup_4c0a32b67b503ee1d63118aff986d38b)
+        ;
+
+        
+    
+    
+            var marker_b2c123e1c46d2a51d1be1aa1995d72b2 = L.marker(
+                [43.05, 0.73],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_6f4c3225c4d81551908a9882372e23ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b2c123e1c46d2a51d1be1aa1995d72b2.setIcon(icon_6f4c3225c4d81551908a9882372e23ec);
+        
+    
+        var popup_bfae9ae706fcf4041c2637510dcd910f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4724f77b5461c32459eaf67c885a4903 = $(`<div id="html_4724f77b5461c32459eaf67c885a4903" style="width: 100.0%; height: 100.0%;">Prairie aux Papillons de Pointis-Inard</div>`)[0];
+            popup_bfae9ae706fcf4041c2637510dcd910f.setContent(html_4724f77b5461c32459eaf67c885a4903);
+        
+
+        marker_b2c123e1c46d2a51d1be1aa1995d72b2.bindPopup(popup_bfae9ae706fcf4041c2637510dcd910f)
+        ;
+
+        
+    
+    
+            var marker_d5b8239a1aa9a69bf95b9c056a2fca79 = L.marker(
+                [43.07, 0.72],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_2472d0206ecd0921a23531f92ae65887 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5b8239a1aa9a69bf95b9c056a2fca79.setIcon(icon_2472d0206ecd0921a23531f92ae65887);
+        
+    
+        var popup_4e3e51815b364e6a7c072dc9647f9e75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86d3318fbe4767dfa9728c7228fea29e = $(`<div id="html_86d3318fbe4767dfa9728c7228fea29e" style="width: 100.0%; height: 100.0%;">Rochers Sculptés de Miramont</div>`)[0];
+            popup_4e3e51815b364e6a7c072dc9647f9e75.setContent(html_86d3318fbe4767dfa9728c7228fea29e);
+        
+
+        marker_d5b8239a1aa9a69bf95b9c056a2fca79.bindPopup(popup_4e3e51815b364e6a7c072dc9647f9e75)
+        ;
+
+        
+    
+    
+            var marker_419e217c17aa988d535cc7af59296676 = L.marker(
+                [43.03, 0.75],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_7f2dc011703efec1a0449bbd44620f9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_419e217c17aa988d535cc7af59296676.setIcon(icon_7f2dc011703efec1a0449bbd44620f9d);
+        
+    
+        var popup_c9cff496d9b58d71731a6d173480588a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3137f030132b8fbeab566912aec57854 = $(`<div id="html_3137f030132b8fbeab566912aec57854" style="width: 100.0%; height: 100.0%;">Chêne de Cazeaux</div>`)[0];
+            popup_c9cff496d9b58d71731a6d173480588a.setContent(html_3137f030132b8fbeab566912aec57854);
+        
+
+        marker_419e217c17aa988d535cc7af59296676.bindPopup(popup_c9cff496d9b58d71731a6d173480588a)
+        ;
+
+        
+    
+    
+            var marker_914ed5a7fc1e2c766764b52177144324 = L.marker(
+                [43.02, 0.73],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_370e93100ea34b74c94cb543237bd073 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_914ed5a7fc1e2c766764b52177144324.setIcon(icon_370e93100ea34b74c94cb543237bd073);
+        
+    
+        var popup_de25721b726f85fcce928cfa243f5415 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa46374d07eb97cd0348036195aa7f4f = $(`<div id="html_aa46374d07eb97cd0348036195aa7f4f" style="width: 100.0%; height: 100.0%;">Fontaine de Lartigues</div>`)[0];
+            popup_de25721b726f85fcce928cfa243f5415.setContent(html_aa46374d07eb97cd0348036195aa7f4f);
+        
+
+        marker_914ed5a7fc1e2c766764b52177144324.bindPopup(popup_de25721b726f85fcce928cfa243f5415)
+        ;
+
+        
+    
+    
+            var marker_0376caf92459e670e07ca68f69c92b75 = L.marker(
+                [43.12, 0.65],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_554eb18bd14fad60647961467424e453 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0376caf92459e670e07ca68f69c92b75.setIcon(icon_554eb18bd14fad60647961467424e453);
+        
+    
+        var popup_4ae9a01607dd665c35bc9ffc5da6700f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d4f1aebb8cbdf034375f50a0a6fc59d = $(`<div id="html_6d4f1aebb8cbdf034375f50a0a6fc59d" style="width: 100.0%; height: 100.0%;">Plateau de Lannemezan</div>`)[0];
+            popup_4ae9a01607dd665c35bc9ffc5da6700f.setContent(html_6d4f1aebb8cbdf034375f50a0a6fc59d);
+        
+
+        marker_0376caf92459e670e07ca68f69c92b75.bindPopup(popup_4ae9a01607dd665c35bc9ffc5da6700f)
+        ;
+
+        
+    
+    
+            var marker_dd1336f470db108eccc2204fe3b1ea59 = L.marker(
+                [43.11, 0.67],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_62e6bde6df36f97b67f6a9985ffb5fed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd1336f470db108eccc2204fe3b1ea59.setIcon(icon_62e6bde6df36f97b67f6a9985ffb5fed);
+        
+    
+        var popup_e6f1bbbb07df23174f62f769e7e69f6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d95759ea52ebdbc539976ba4b9d3f67 = $(`<div id="html_3d95759ea52ebdbc539976ba4b9d3f67" style="width: 100.0%; height: 100.0%;">Château de Valmirande</div>`)[0];
+            popup_e6f1bbbb07df23174f62f769e7e69f6c.setContent(html_3d95759ea52ebdbc539976ba4b9d3f67);
+        
+
+        marker_dd1336f470db108eccc2204fe3b1ea59.bindPopup(popup_e6f1bbbb07df23174f62f769e7e69f6c)
+        ;
+
+        
+    
+    
+            var marker_012b7daedb2efab1fe491f185c2c062f = L.marker(
+                [43.07486, 0.75381],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_546400a01a39e70972e36b9e052e425a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_012b7daedb2efab1fe491f185c2c062f.setIcon(icon_546400a01a39e70972e36b9e052e425a);
+        
+    
+        var popup_f8ff2915f7fe3cf43f6ce310daad203d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e741e6006284ea33b56ad4191ac776b = $(`<div id="html_7e741e6006284ea33b56ad4191ac776b" style="width: 100.0%; height: 100.0%;">Le Chemin des Fées</div>`)[0];
+            popup_f8ff2915f7fe3cf43f6ce310daad203d.setContent(html_7e741e6006284ea33b56ad4191ac776b);
+        
+
+        marker_012b7daedb2efab1fe491f185c2c062f.bindPopup(popup_f8ff2915f7fe3cf43f6ce310daad203d)
+        ;
+
+        
+    
+    
+            var marker_186632685ebb4c71ca71b4a082750723 = L.marker(
+                [43.07625, 0.75569],
+                {}
+            ).addTo(map_70cc742e7ab4ee9c9d015595c5d23f7c);
+        
+    
+            var icon_bcc93edaf47fe4baead63af663c6e10c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_186632685ebb4c71ca71b4a082750723.setIcon(icon_bcc93edaf47fe4baead63af663c6e10c);
+        
+    
+        var popup_4c5e6c4d2cc8221368f9d7e6bcdc127a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6ebb9d4a39d4ea68fc3dce8a45fa2b7 = $(`<div id="html_f6ebb9d4a39d4ea68fc3dce8a45fa2b7" style="width: 100.0%; height: 100.0%;">Centre Aether Cagire</div>`)[0];
+            popup_4c5e6c4d2cc8221368f9d7e6bcdc127a.setContent(html_f6ebb9d4a39d4ea68fc3dce8a45fa2b7);
+        
+
+        marker_186632685ebb4c71ca71b4a082750723.bindPopup(popup_4c5e6c4d2cc8221368f9d7e6bcdc127a)
+        ;
+
+        
+    
+</script>
+</html>
